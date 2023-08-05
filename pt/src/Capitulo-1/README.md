@@ -52,10 +52,20 @@ syntax objetiva e de fácil entendimento. O fato de ter uma comunidade muito gra
 sustentando faz com que existam hoje muitos recursos para se utilizar, como por exemplo
 o próprio registry da Hashicorp, onde podemos encontrar módulos prontos para utilização.
 
+Definção de certificação: HCL é uma linguagem imutável, declarativa de provisionamento
+de Infraestrutura como Código (IaC) baseada na Hashcorp Configuration Language ou
+opcionalmente em JSON.
+
 ## Terraform CLI
 
 Vamos por a mão na massa um pouco, para entendermos como funciona essa parada de IaC!
 
-<!-- //todo -->
-<!-- //todo  -->
-<!-- //todo  -->
+<!-- //todo --> primeiro exemplo com scrip shell criando aplicação com php -->
+<!-- poderiamos aqui complicar na parte de script mas não é o foco, nosso foco
+é entender a lógica apenas de que tudo isso já é IaC -->
+<!-- //todo  configuração da aws e do terraform-->
+<!-- instalação é perda de tempo, muita doc a respeito deixa só as docs de referência
+mesmo. Então: [aws](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+[terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
+os dois devem estar instalados vamos fazer só a config da aws -->
+<!-- //todo  módulo crú de uma ec2-->
